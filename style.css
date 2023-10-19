@@ -1,0 +1,416 @@
+
+.navbar {
+    background-color: aliceblue;
+    height: 80px;
+    border-bottom:1px solid black ;
+    position: sticky !important;
+top: 0 !important;
+z-index: 100 !important;
+}
+.nav-item:hover{
+    background-color: rgb(199, 40, 74);
+}
+.nav-item1:hover{
+    background-color: rgb(106, 252, 21);
+}
+.nav-item2:hover{
+    background-color: rgb(255, 38, 0);
+}
+.nav-item3:hover{
+    background-color: rgb(255, 251, 25);
+}
+.nav-item4:hover{
+    background-color: rgb(20, 109, 226);
+}
+.nav-item5:hover{
+    background-color: rgb(138, 51, 252);
+}
+.nav-item6:hover{
+    background-color: rgb(236, 21, 139);
+}
+.margin{
+    margin-left: 80px;
+}
+
+.card-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(107, 103, 103);
+}
+
+.row{
+    width: 1100px;
+margin-left: 100px;
+
+}
+.ayan{
+    
+    width: 335px;
+    margin: 15px;
+}
+.ayan1{
+    width: 335px;
+    margin: 15px;
+}
+.ayan2{
+    width: 335px;
+    margin: 15px;
+}
+.card-group{
+    margin-left: 90px;
+}
+
+.send{
+    width: 500px;
+    height: 700px;
+    margin-left: 70px;
+}
+
+.card{
+    border: 1px  solid rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+
+.ass{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 250px; 
+    }
+
+.dead{
+   
+    display: flex;
+}
+
+.border{
+    border-image: round;
+    border-radius: 20px;
+}
+#rty{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.new{
+    margin-left: 260px;
+     display: flex;
+     padding: 10px;
+}
+.react{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: 250px;
+    height: 220px;
+}
+.space1{
+margin-right: 30px;
+}
+.space2{
+margin-right: 30px;
+}
+
+.old{
+    margin-left: 260px;
+    margin-top: -10px;
+     display: flex;
+     padding: 10px;
+}
+.class{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: 250px;
+    height: 220px;
+}
+.abc1{
+margin-right: 30px;
+}
+.abc2{
+margin-right: 30px;
+}
+
+.app{
+    margin-left: 260px;
+    margin-top: -10px;
+     display: flex;
+     padding: 10px;
+}
+.school{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: 250px;
+    height: 220px;
+}
+.end1{
+margin-right: 30px;
+}
+.end2{
+margin-right: 30px;
+}
+.west{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 300px;
+}
+.antic{
+    width: 220px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: -50px;
+
+}
+.text-center1 {
+    background-color: rgb(199, 196, 192);
+}
+.cmp-button__text{
+    margin-left: 800px;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 300px;
+    height: 45px;
+    background-color:  rgb(199, 196, 192) ;
+}
+.container{
+    margin-left: -550px;
+}
+
+
+
+hr{
+    margin-left: 75px;
+    width: 1050px;
+}
+.rq {
+    color: #000000;
+    font-weight: 400;
+    margin-left: 75px;
+
+}
+
+.jh {
+    margin-left: 100px;
+}
+
+.ll {
+    margin-left: 100px;
+}
+
+.pq {
+    color: #313131;
+    font-weight: 400;
+}
+.bg{
+    color: #000000;
+    margin-left: 75px;
+}
+
+.rh {
+    color: #312c2c;
+    font-weight: 400;}
+
+.rt{
+    color: #000000;
+}
+.hh{
+    margin-left: 760px;
+}
+@media screen and (max-width:576px)
+{
+    .navbar{
+        width: auto;
+    }
+ .margin{
+    align-self: center;
+ }
+
+
+
+.text-center{
+    align-items: center;
+}
+
+.row{
+    width: auto;
+    margin-left: auto;
+}
+
+
+.ayan{
+    
+    width: 250px;
+    margin: auto;
+}
+.ayan1{
+    width: 250px;
+    margin: auto;
+}
+.ayan2{
+    width: 250px;
+    margin: auto;
+}
+.card-group{
+    margin-left: auto;
+}
+
+.dead{
+    flex-wrap: wrap;
+}
+
+
+.send{
+    width: auto;
+    height: auto;
+    margin-left:auto;
+}
+
+
+
+#rty{
+    width: 200px;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+
+
+.type{
+    margin-top: 30px;
+}
+
+.new{
+    margin-left: 15%;
+    margin-top: auto;
+    flex-wrap: wrap;
+     padding: auto;
+}
+.space3{
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+.react{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+
+.old{
+    margin-left: 15%;
+    margin-top: auto;
+    flex-wrap: wrap;
+     padding: auto;
+}
+
+.class{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+.app{
+    margin-left: 15%;
+    margin-top: auto;
+    flex-wrap: wrap;
+     padding: auto;
+}
+
+.school{
+    background-color: rgb(219, 236, 236);
+    border: 2px solid rgb(219, 236, 236) ;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+
+.west{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: auto;
+}
+
+
+.text-center1 {
+    background-color: rgb(199, 196, 192);
+}
+.cmp-button__text{
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: auto;
+    height: auto;
+    background-color:  rgb(199, 196, 192) ;
+}
+.container{
+    margin-left: auto;
+}
+
+
+
+hr{
+    margin-left: auto;
+    width: auto;
+}
+.rq {
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: auto;
+
+}
+
+.jh {
+    margin-left: auto;
+}
+
+.ll {
+    margin-left: auto;
+}
+
+.pq {
+    color: #313131;
+    font-weight: 400;
+    font-size: 15px;
+}
+.bg{
+    color: #000000;
+    margin-left: auto;
+}
+
+.rh {
+    color: #312c2c;
+    font-weight: 400;
+font-size: 15px;
+}
+
+.rt{
+    color: #000000;
+}
+.hh{
+    margin-left: auto;
+    width: 300px;
+}
+
+.antic{
+    width: 50%;
+    height: 20px;
+    margin-left:10px;
+    margin-bottom: -30px;
+
+}
+.cmp-button__text{
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: auto;
+    height: auto;
+    background-color:  rgb(199, 196, 192) ;
+}
+
+}
